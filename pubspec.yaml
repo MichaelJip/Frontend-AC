@@ -1,0 +1,49 @@
+name: astro_front
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  flutter_bloc: ^9.0.0
+  http: ^1.3.0
+  dartz: ^0.10.1
+  shared_preferences: ^2.5.2
+  freezed: ^2.5.8
+  freezed_annotation: ^2.4.4
+  build_runner: ^2.4.15
+  image_picker: ^1.1.2
+  image_cropper: ^9.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  build_runner: ^2.4.15
+  json_serializable: ^6.7.1
+  
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
